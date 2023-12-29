@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.content{
+    height: 55%;
+    width: 35%;
+    box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25%;
+}
+.content1 h2 i{
+    color: #5195ee;
+    font-size: 2rem;
+}
+.content1 .title{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.content_form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .container_input {
+        width: 50%;
+        label {
+            font-family: "sans-serif";
+            color: #000019;
+        }
+
+        .input_item {
+            position: relative;
+            margin: .3rem auto;
+
+            input {
+                height: 2.7rem;
+                width: calc(100% - 2.7rem);
+                border-radius: .5rem;
+                border: 1px solid #dcdfe6;
+                padding-left: 2.7rem;
+                outline: 0;
+
+                &::placeholder {
+                    opacity: .3;
+                }
+            }
+
+            i, svg {
+                position: absolute;
+                top: 50%;
+                left: 1.3rem;
+                transform: translate(-50%, -50%);
+                font-size: 1.3rem;
+                opacity: .3;
+            }
+
+            svg {
+                width: 25px;
+                height: 19px;
+                fill: currentColor;
+            }
+        }
+    }
+}
+.content3{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+.google{
+    border: none !important;
+}
+.Sign_in{
+    width: 50%;
+    margin-bottom: 2rem;
+    height: 4vh;
+    background-color: #5195ee;
+    box-shadow: 0em 0em .2em #5195ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    
+    button{
+        border: none;
+        width: 100%;
+        background-color: transparent;
+        color: white;
+        font-weight: bolder;
+    }
+}
+asl-google-signin-button{
+    width: 50% !important;
+}
